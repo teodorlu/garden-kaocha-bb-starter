@@ -1,4 +1,4 @@
-# Clojure starter pack for Application.garden, Kaocha, Launchpad and Babashka
+# Clojure starter pack for Application.garden, Kaocha and Babashka
 
 This repository demonstrates a workflow for continuous delivery without pull requests or third-party CI solutions such as Github Workflows.
 
@@ -15,11 +15,11 @@ We aim for two goals:
 
 We'll build on the following tools:
 
-| Purpose     | Tool               | Documentation                          |
-|-------------|--------------------|----------------------------------------|
-| Deployment  | Application.garden | https://docs.apps.garden/              |
-| Test runner | Kaocha             | https://github.com/lambdaisland/kaocha |
-| Scripting   | Babashka           | https://book.babashka.org/             |
+| Tool               | Purpose     | Documentation                          |
+|--------------------|-------------|----------------------------------------|
+| Application.garden | Deployment  | https://docs.apps.garden/              |
+| Babashka           | Scripting   | https://book.babashka.org/             |
+| Kaocha             | Test runner | https://github.com/lambdaisland/kaocha |
 
 Each tool is well worth learning!
 Take this repository as a starting point, take what you want, then build in the direction you need.
