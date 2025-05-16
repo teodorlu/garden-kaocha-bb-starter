@@ -20,3 +20,14 @@
     (reset! !server server)
     (println (format "server started on port %s"
                      (server/server-port server)))))
+
+
+(comment
+  (set! *print-namespace-maps* false)
+
+  ;; Run tests without a restart
+  (require 'kaocha.repl)
+  (kaocha.repl/run-all)
+  ;; (I prefer having a keybinding for this!)
+
+  )

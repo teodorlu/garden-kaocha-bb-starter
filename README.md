@@ -23,3 +23,20 @@ We'll build on the following tools:
 
 Each tool is well worth learning!
 Take this repository as a starting point, take what you want, then build in the direction you need.
+
+## Development
+
+Shell commands:
+
+| Task                           | Command       |
+|--------------------------------|---------------|
+| Run locally                    | `garden run`  |
+| Connect to production REPL     | `garden repl` |
+| Run test suite outside of REPL | `bb test`     |
+
+## Run tests from inside the REPL
+
+```clojure
+(require 'kaocha.repl)
+(kaocha.repl/run-all)
+```
