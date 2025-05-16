@@ -1,3 +1,5 @@
+**⚠️ THIS PROJECT IS UNDER CONSTRUCTION ⚠️**
+
 # Clojure starter pack for Application.garden, Kaocha and Babashka
 
 This repository demonstrates a workflow for continuous delivery without pull requests or third-party CI solutions such as Github Workflows.
