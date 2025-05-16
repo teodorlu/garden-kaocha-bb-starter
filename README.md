@@ -15,11 +15,15 @@ We aim for two goals:
 
 We'll build on the following tools:
 
-| Tool               | Purpose     | Documentation                          |
-|--------------------|-------------|----------------------------------------|
-| Application.garden | Deployment  | https://docs.apps.garden/              |
-| Babashka           | Scripting   | https://book.babashka.org/             |
-| Kaocha             | Test runner | https://github.com/lambdaisland/kaocha |
+| Tool               | Purpose     | Documentation                    |
+|--------------------|-------------|----------------------------------|
+| Application.garden | Deployment  | [docs.apps.garden]               |
+| Babashka           | Scripting   | [book.babashka.org]              |
+| Kaocha             | Test runner | [github.com/lambdaisland/kaocha] |
+
+[docs.apps.garden]: https://docs.apps.garden
+[book.babashka.org]: https://book.babashka.org
+[github.com/lambdaisland/kaocha]: https://github.com/lambdaisland/kaocha
 
 Each tool is well worth learning!
 Take this repository as a starting point, take what you want, then build in the direction you need.
