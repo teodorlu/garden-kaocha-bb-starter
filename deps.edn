@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :deps {http-kit/http-kit {:mvn/version "2.8.0"}
+        lambdaisland/kaocha {:mvn/version "1.91.1392"}}
+ :aliases
+ {:nextjournal/garden
+  {:exec-fn starter/start!}}}
